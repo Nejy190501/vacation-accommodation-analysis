@@ -118,3 +118,26 @@ To run this notebook locally on your machine:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### ⚙️ Machine Learning Pipeline & Quick Start
+
+1. **Data Preprocessing & Cleaning**: Outlier removal, missing value imputation, logarithmic transformation for skewed price distributions.
+2. **Feature Engineering**: Distance to city center/beach, room-to-guest ratios, seasonal demand encoding.
+3. **Clustering & Market Segmentation**: Unsupervised segmentation identifying budget, premium, and family-oriented accommodation tiers.
+4. **Predictive Modeling**: Supervised regression benchmarks evaluating feature importances for price determination.
+
+```bash
+# 1. Clone repository
+git clone https://github.com/Nejy190501/vacation-accommodation-analysis.git
+cd vacation-accommodation-analysis
+
+# 2. Setup virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\\Scripts\\activate
+
+# 3. Install requirements
+pip install -r requirements.txt
+
+# 4. Open Case Study Notebook
+jupyter notebook Case_Study_Jean_Yves_Nkwane_Ebongue_77201393552.ipynb
+```
